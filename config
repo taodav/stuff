@@ -1,0 +1,14 @@
+Host wk4
+  HostName sc2grpwk4.d2.comp.nus.edu.sg
+  User taodav
+  ProxyCommand ssh -l i0000206 sunfire.comp.nus.edu.sg -W %h:%p
+
+Host beluga
+  HostName beluga.computecanada.ca
+  User taodav
+  LocalForward 8100 beluga3:8097
+
+Host graham
+  HostName graham.computecanada.ca
+  User taodav
+  LocalForward 8097 gra-login2:8097

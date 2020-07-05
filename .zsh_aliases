@@ -1,0 +1,5 @@
+# ssh global aliases
+# alias -g beluga="-L 8100:beluga3:8097 -L 8101:beluga4:8097 -L 8099:beluga1:8097 taodav@beluga.computecanada.ca"
+# alias -g graham="-L 8096:gra-login1:8097 -L 8097:gra-login2:8097 taodav@graham.computecanada.ca"
+alias srcv="source venv/bin/activate"
+hash -d deer="~/Documents/deer-research/"
